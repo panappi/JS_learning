@@ -4,7 +4,7 @@ if (level > 10) {
   console.log("レベルが10より大きいです");
 }
 
-const age = 17;
+let age = 17;
 // 条件式が成り立たない場合に「if文」で条件を追加
 if (age >= 20) {
   console.log("私は20歳以上です");
@@ -48,3 +48,29 @@ if (!number) {
 } else {
   console.log("numberには値がはいっています。");
 }
+
+/* 条件分岐 (switch) */
+const omikuji = 4;
+
+switch (omikuji) {
+  case 1:
+    console.log("大吉です");
+    break;
+
+  case 2:
+    console.log("吉です");
+    break;
+
+  case 3:
+    console.log("小吉です");
+    break;
+
+  default:
+    console.log("凶です");
+    break;
+}
+
+/* 条件(三項)演算子 */
+age = 25;
+const drink = age >= 20 ? "ビール" : "ジュース";
+console.log(drink);
