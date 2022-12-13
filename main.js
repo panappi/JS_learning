@@ -24,14 +24,25 @@ for (let num = 0; num <= 30; num++) {
   // }
 
   /* ----------------------------------------- */
-  const surplus = (num, x) => {
-    return num % x;
-  };
-  if (surplus(num, 15) === 0) {
+  // const surplus = (num, x) => {
+  //   return num % x;
+  // };
+  // if (surplus(num, 15) === 0) {
+  //   console.log("Fizz Buzz");
+  // } else if (surplus(num, 3) === 0) {
+  //   console.log("Fizz");
+  // } else if (surplus(num, 5) === 0) {
+  //   console.log("Buzz");
+  // } else {
+  //   console.log(num);
+  // }
+
+  /* ----------------------------------------- */
+  if (num % 15 === 0) {
     console.log("Fizz Buzz");
-  } else if (surplus(num, 3) === 0) {
+  } else if (num % 3 === 0) {
     console.log("Fizz");
-  } else if (surplus(num, 5) === 0) {
+  } else if (num % 5 === 0) {
     console.log("Buzz");
   } else {
     console.log(num);
