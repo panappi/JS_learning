@@ -5,6 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Leaning</title>
+
+    <style>
+      #section {
+        background-color: #c8e6c9;
+      }
+
+      #button1 {
+        display: block;
+        background-color: rgb(177, 195, 233);
+        cursor: pointer;
+        width: 160px;
+        text-align: center;
+        border: 1px solid #232323;
+        margin-bottom: 15px;
+      }
+
+      #button2 {
+        display: block;
+        background-color: #eabdc5;
+        cursor: pointer;
+        width: 160px;
+        text-align: center;
+        border: 1px solid #232323;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <!-- <p id="p0">元から設置されたp要素です</p> -->
+
+    <section id="section">
+      <h1 id="h1">DOM練習中</h1>
+      <div id="button1" onclick="changeH1()"><p>クリック</p></div>
+      <div id="button2" onclick="changeH1()"><p>クリック</p></div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
 </html>
