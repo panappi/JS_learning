@@ -1,10 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Leaning</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header style="z-index: 1000">
+      <h1>タイトル</h1>
+      <div id="menu_image">
+        <img
+          id="menu_image-open"
+          src="./image/menu1.png"
+          alt="メニューボタン"
+        />
+        <img
+          id="menu_image-close"
+          src="./image/menu2.png"
+          alt="メニューボタン"
+          style="display: none"
+        />
+      </div>
+    </header>
+
+    <main>
+      <nav id="menu_text" style="left: -100%">
+        <ul>
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="index.html">NEWS</a></li>
+          <li><a href="index.html">ABOUT</a></li>
+          <li><a href="index.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <div>
+          <h2>TOP</h2>
+          <p>テキストテキストテキスト</p>
+        </div>
+        <div>
+          <h2>NEWS</h2>
+          <p>テキストテキストテキスト</p>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>テキストテキストテキスト</p>
+        </div>
+        <div>
+          <h2>CONTACT</h2>
+          <p>テキストテキストテキスト</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
 </html>
